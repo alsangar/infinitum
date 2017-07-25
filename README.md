@@ -7,13 +7,11 @@ la necesidad de organizar el contenido mediante paginación.
 
 Se puede ver una demo de la aplicación en [este enlace](https://infinitum-174215.appspot.com/).
 
-
-
 ## Objetivos iniciales
 
 - [x] Aprender a configurar la estructura de una aplicación web
 - [x] Definir una conexión a base de datos en PHP
-- [x] Explorar como funciona una API extrayendo contenido de una MySQL en formato JSON
+- [x] Explorar como funciona una API extrayendo contenido en formato JSON de una base de datos 
 - [x] Usar PHP para personalizar la salida JSON
 - [x] Explorar las peticiones AJAX con JQuery
 - [x] Usar Javascript para detectar scrolling
@@ -22,7 +20,13 @@ Se puede ver una demo de la aplicación en [este enlace](https://infinitum-17421
 
 ## Objetivos adicionales
 - [x] Desplegar la aplicación en Google Cloud Platform (App Engine y Cloud SQL)
-- [ ] Crear una simple aplicación para rellenar la base de datos
+- [x] Hacer más atractiva la visualización de los datos mediante animate.css
+
+## Tareas pendientes
+- [ ] Crear una aplicación simple para rellenar la base de datos
+- [ ] Generar una interfaz de configuración
+- [ ] Redefinir el aspecto visual de la cabecera
+- [ ] URL más amigable
 
 
 

@@ -1,5 +1,8 @@
 var offset = 0;
 var num_items = 1;
+var distancia_top = 220;
+var duracion = 500;
+
 //Cuando se realizan las llamadas AJAX durante el scrolling, no se espera al resultado para lanzar
 //la siguiente llamada lo que povoca inconsistencias y saltos en el resultado de las consultas.
 //La variable esperar es un semaforo que permite lanzar la siguiente consulta toda
@@ -12,13 +15,25 @@ $(function(){
 });
 
 //Cada vez que se hace scroll hacia abajo se carga un nuevo item. Pare ello se controla
-//que ha ocurrido un desplazamiento midiendo la
+//que ha ocurrido un desplazamiento
 $(window).scroll(function(){
     
     if($(window).scrollTop() >= $(document).height()- $(window).height()-100){
         cargarDatos(1);
     }
+    
+    if($(window).scrollTop() > distancia_top){
+        jQuery('.boton-top').fadeIn(duracion);
+    }else{
+        jQuery('.boton-top').fadeOut(duracion);
+    }
 });
+        
+jQuery('.boton-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, 500);
+        return false;
+})
 
 function cargarDatos(a){
     //Este if controla si se ha recibido el resultado de la consulta anterior
