@@ -1,5 +1,6 @@
 {
     "require": {
-        "google/cloud": "^0.33"
+        "google/cloud": "^0.33",
+        "php": "~7.2"
     }
 }
