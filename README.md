@@ -5,7 +5,7 @@ El scrolling infinito es una técnica de diseño web que permite cargar contenid
 de forma contínua a medida que el usuario va desplazándose por la página eliminando 
 la necesidad de organizar el contenido mediante paginación.
 
-Se puede ver una demo de la aplicación en [este enlace](https://infinitum-174215.appspot.com/).
+Se puede ver una demo de la aplicación en [este enlace](https://warm-crag-49168.herokuapp.com/).
 
 ## Objetivos iniciales
 
