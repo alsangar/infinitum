@@ -20,6 +20,7 @@ Se puede ver una demo de la aplicación en [este enlace](https://warm-crag-49168
 
 ## Objetivos adicionales
 - [x] Desplegar la aplicación en Google Cloud Platform (App Engine y Cloud SQL)
+- [x] Desplegar la aplicación en Heroku
 - [x] Hacer más atractiva la visualización de los datos mediante animate.css
 
 ## Tareas pendientes
